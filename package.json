@@ -1,6 +1,6 @@
 {
-  "name": "barrelsby",
-  "version": "2.2.0",
+  "name": "@picturelink/barrelsby",
+  "version": "2.3.0",
   "description": "Automatic TypeScript barrels for your entire code base",
   "main": "index.js",
   "scripts": {
@@ -25,11 +25,7 @@
     "Module",
     "Barrelsby"
   ],
-  "author": {
-    "name": "Ben Coveney",
-    "email": "bencoveney@gmail.com",
-    "url": "https://github.com/bencoveney"
-  },
+  "author": "Ben Coveney <bencoveney@gmail.com> (https://github.com/bencoveney)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bencoveney/barrelsby/issues"
@@ -71,13 +67,12 @@
     "yargs": "^14.2.0"
   },
   "contributors": [
-    {
-      "name": "Ben Coveney",
-      "email": "bencoveney@gmail.com",
-      "url": "https://github.com/bencoveney"
-    }
+    "Ben Coveney <bencoveney@gmail.com> (https://github.com/bencoveney)"
   ],
   "engines": {
     "node": ">=6.0.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }
